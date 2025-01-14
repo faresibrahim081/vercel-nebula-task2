@@ -2,7 +2,7 @@ import "./App.css";
 import Brands from "./Brands/Brands";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
-import Header from "./header/Header.jsx";
+import Nav from "./Header/Nav.jsx";
 import Layout from "./Layout/Layout";
 import Services from "./Services/Services";
 import WeHelpYou from "./WeHelpYou//WeHelpYou";
@@ -43,7 +43,7 @@ function App() {
         style={{ top: y, left: x }}
       ></div>
       <div>
-        <Header />
+        <Nav />
         <Layout />
         <Brands />
         <WeHelpYou />
