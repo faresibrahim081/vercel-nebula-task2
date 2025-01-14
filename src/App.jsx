@@ -2,7 +2,7 @@ import "./App.css";
 import Brands from "./Brands/Brands";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
-// import Header from "./header/Header.jsx";
+import Header from "./header/Header.jsx";
 import Layout from "./Layout/Layout";
 import Services from "./Services/Services";
 import WeHelpYou from "./WeHelpYou//WeHelpYou";
@@ -42,14 +42,16 @@ function App() {
         className="hidden md:block fixed z-20 top-[0] left-[0] w-[60px] h-[60px] rounded-[50%] pointer-events-none bg-mainColor opacity-[0.5]"
         style={{ top: y, left: x }}
       ></div>
-      {/* <Header /> */}
-      <Layout />
-      <Brands />
-      <WeHelpYou />
-      <Services />
-      <WhatWeDo />
-      <Contact />
-      <Footer />
+      <div>
+        <Header />
+        <Layout />
+        <Brands />
+        <WeHelpYou />
+        <Services />
+        <WhatWeDo />
+        <Contact />
+        <Footer />
+      </div>
       <a
         href="#top"
         className={`fixed bottom-2 right-5 w-10 h-10 grid place-items-center text-[2.1rem] bg-gradient-to-r from-yellow-400 to-green-300 rounded-full opacity-0 transition-transform duration-300 z-40 ${
